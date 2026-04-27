@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OneHub — voltando ao app</title>
+<style>
+body{font-family:-apple-system,sans-serif;background:#000;color:#fff;text-align:center;padding:48px 24px;margin:0}
+a{color:#0a84ff;font-size:18px;display:inline-block;margin-top:24px;padding:14px 28px;background:#1a1a1a;border-radius:14px;text-decoration:none}
+.q{font-size:14px;color:#888;margin-top:16px}
+</style>
+</head><body>
+<h1>OneHub</h1>
+<p>Universal Link callback recebido.</p>
+<p>Se não voltar automático, toca abaixo.</p>
+<a href="onehub://glasses/registered">Voltar pro OneHub</a>
+<p class="q">Bundle: com.bymav.cloudcar — Ray-Ban Meta DAT</p>
+<script>
+// Tenta deeplink custom scheme se Universal Link não pegou
+setTimeout(function(){ window.location.href = "onehub://glasses/registered" + window.location.search; }, 800);
+</script>
+</body></html>
