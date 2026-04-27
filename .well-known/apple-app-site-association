@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["PJ8972D48J.com.bymav.cloudcar"],
+        "components": [
+          { "/": "/visionclaw/*" },
+          { "/": "/visionclaw" },
+          { "/": "/glasses/*" },
+          { "/": "/glasses" }
+        ]
+      }
+    ]
+  },
+  "webcredentials": { "apps": ["PJ8972D48J.com.bymav.cloudcar"] },
+  "appclips": { "apps": [] }
+}
